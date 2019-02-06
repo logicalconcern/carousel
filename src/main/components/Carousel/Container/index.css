@@ -4,11 +4,11 @@
 }
   
 .carousel {
-  display: flex;
-  top: calc(100% - 430px);
-  left: -100%;
   list-style: none;
   position: relative;
+  display: flex;
+  top: calc(50% - 160px);
+  left: -100%;
   transform: translateX(100%);
 }
 
