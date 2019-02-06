@@ -1,0 +1,56 @@
+.container {
+  flex: 1 1 auto;
+  position: relative;
+}
+  
+.carousel {
+  list-style: none;
+  position: relative;
+  display: flex;
+  top: calc(50% - 160px);
+  left: -100%;
+  transform: translateX(100%);
+}
+
+.ready {
+  /* ready */
+}
+
+.reversing {
+  /* reversing */
+}
+  
+@media (min-width: 30em) {
+  .carousel {
+    left: -50%;
+    transform: translateX(50%);
+  }
+}
+  
+@media (min-width: 40em) {
+  .carousel {
+    left: -33.33333%;
+    transform: translateX(33.33333%);
+  }
+}
+    
+.carousel .reversing {
+  transform: translateX(-100%);
+}
+  
+@media (min-width: 30em) {
+  .carousel .reversing {
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 40em) {
+  .carousel .reversing {
+    transform: translateX(-33.33333%);
+  }
+}
+
+.carousel .ready {
+  transform: none;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
