@@ -2,6 +2,12 @@
     "name": "carousel",
     "version": "1.0.0",
     "main": "src/main/index.js",
+    "dependencies": {
+      "classnames": "^2.2.6",
+      "react": "16.7.0-alpha.2 - next",
+      "react-dom": "16.7.0-alpha.2 - next",
+      "react-lazyload": "^2.5.0"
+    },
     "devDependencies": {
       "@babel/plugin-proposal-class-properties": "^7.3.0",
       "@babel/plugin-syntax-dynamic-import": "^7.2.0",
