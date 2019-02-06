@@ -29,6 +29,14 @@
       "webpack": "^4.29.0",
       "webpack-cli": "^3.2.1",
       "webpack-dev-server": "^3.1.14"
+    },
+    "resolutions": {
+      "terser": "3.14.1"
+    },
+    "scripts": {
+      "build": "webpack -p --config ./webpack/webpack.config.js --display-error-details",
+      "watch": "webpack -d --watch --config ./webpack/webpack.config.js --display-error-details",
+      "start": "webpack-dev-server --config ./webpack/webpack.config.js --mode development"
     }
   }
   
