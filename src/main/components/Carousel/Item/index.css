@@ -1,0 +1,32 @@
+.active {
+  /* active */
+}
+
+.item {
+    height: 100%;
+    background: #ddd;
+    flex: 1 0 100%;
+    order: 2;
+  }
+  .item:nth-child(even) {
+    background: #d5d5d5;
+  }
+  @media (min-width: 30em) {
+    .item {
+      flex-basis: 50%;
+    }
+  }
+  @media (min-width: 40em) {
+    .item {
+      flex-basis: 33.33333%;
+    }
+  }
+  /* States */
+  .item .active {
+    order: 1;
+  }
+
+  .item img {
+    max-width: 100%;
+  }
+  

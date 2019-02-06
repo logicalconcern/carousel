@@ -1,0 +1,22 @@
+.preloader {
+    height: 100%;
+    background: #ddd;
+    flex: 1 0 100%;
+    order: 2;
+}
+  
+.preloader:nth-child(even) {
+    background: #d5d5d5;
+}
+  
+@media (min-width: 30em) {
+    .preloader {
+        flex-basis: 50%;
+    }
+}
+  
+@media (min-width: 40em) {
+    .preloader {
+        flex-basis: 33.33333%;
+    }
+}
