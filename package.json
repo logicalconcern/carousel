@@ -9,6 +9,7 @@
     "@types/react-dom": "16.8.4",
     "classnames": "^2.2.6",
     "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.0",
     "react-dom": "^16.8.6",
     "react-lazyload": "^2.5.0",
     "react-scripts": "3.0.0",
