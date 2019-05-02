@@ -1,6 +1,6 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload';
-import styles from "./index.css";
+import styles from "./index.module.css";
 
 export default ({ data, index, items, ordinal }) => {
   // console.log(data.likes, data.user)

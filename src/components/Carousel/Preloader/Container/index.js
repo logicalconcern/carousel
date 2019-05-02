@@ -1,6 +1,6 @@
 import React from 'react';
 import Spinner from "react-svg-spinner";
-import styles from "./index.css";
+import styles from "./index.module.css";
 
 export default () => (
     <div className={styles.preloader}>

@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import classnames from 'classnames';
 import Preloader from '../Preloader';
-import styles from "./index.css";
+import styles from "./index.module.css";
 
 const Item = lazy(() => import('../Item'));
 

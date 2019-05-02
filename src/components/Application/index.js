@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from '../Carousel';
 import Header from '../Header';
 import { useFetch, useOrdinal } from '../../state/hooks';
-import styles from "./index.css";
+import styles from "./index.module.css";
 
 const getQueryUrl = () => {
     const API_URL = 'https://pixabay.com/api/'
